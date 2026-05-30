@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# Optional: if installed, scripts/memberC_modeling.py will include XGBoost.
+xgboost
+shap
