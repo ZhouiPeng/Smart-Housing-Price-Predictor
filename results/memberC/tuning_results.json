@@ -1,0 +1,42 @@
+{
+  "Linear Regression": {
+    "best_params": {},
+    "best_cv_rmse_log": 0.15810603142803323
+  },
+  "Ridge": {
+    "best_params": {
+      "model__alpha": "100.0"
+    },
+    "best_cv_rmse_log": 0.14609252427687833
+  },
+  "Lasso": {
+    "best_params": {
+      "model__alpha": "0.01"
+    },
+    "best_cv_rmse_log": 0.1473245357867553
+  },
+  "Random Forest": {
+    "best_params": {
+      "max_depth": "16",
+      "min_samples_leaf": "1",
+      "n_estimators": "120"
+    },
+    "best_cv_rmse_log": 0.1416814886137809
+  },
+  "Gradient Boosting": {
+    "best_params": {
+      "learning_rate": "0.07",
+      "max_depth": "3",
+      "n_estimators": "260"
+    },
+    "best_cv_rmse_log": 0.12950848632871584
+  },
+  "XGBoost": {
+    "best_params": {
+      "learning_rate": "0.05",
+      "max_depth": "3",
+      "n_estimators": "500"
+    },
+    "best_cv_rmse_log": 0.12469255620598342
+  }
+}
